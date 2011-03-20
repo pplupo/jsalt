@@ -2,7 +2,7 @@ package jsalt;
 
 /**
  * This enum lists the JSE provided encryption algorithms. 
- * @author Peter
+ * @author Peter P. Lupo
  */
 public enum StandardJSEAlgorithms {
 	
