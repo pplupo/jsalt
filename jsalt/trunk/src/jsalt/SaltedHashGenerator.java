@@ -38,7 +38,7 @@ public class SaltedHashGenerator {
     }
     
     /**
-     * This constructor works as {@link #HashGenerator(String)} and provides a
+     * This constructor works as {@link #SaltedHashGenerator(String)} and provides a
      * convenient way to set if the generated passwords should be encoded as Base64.
      *
      * @param algorithm The algorithm key name.
@@ -55,7 +55,7 @@ public class SaltedHashGenerator {
     }
     
     /**
-     * This constructor works as {@link #HashGenerator(StandardJSEAlgorithms)} and provides a
+     * This constructor works as {@link #SaltedHashGenerator(StandardJSEAlgorithms)} and provides a
      * convenient way to set if the generated passwords should be encoded as Base64.
      *
      * @param algorithm The algorithm to use.
