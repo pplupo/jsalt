@@ -4,6 +4,10 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * This class aims to provide a simple API to generate salted hash encryptions for plain text passwords.
+ * @author Peter P. Lupo
+ */
 public class SaltedHashGenerator {
 	
     private final boolean encodeHashAsBase64;

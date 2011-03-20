@@ -1,5 +1,9 @@
 package jsalt;
 
+/**
+ * This enum lists the JSE provided encryption algorithms. 
+ * @author Peter
+ */
 public enum StandardJSEAlgorithms {
 	
 	MD2("MD2"),
@@ -15,7 +19,7 @@ public enum StandardJSEAlgorithms {
 		this.name = name;
 	}
 
-	String getName() {
+	public String getName() {
 		return name;
 	}
 	
