@@ -7,7 +7,7 @@ import jsalt.VariableTimePasswordComparator;
 import org.junit.Test;
 
 
-public class ConstantTimePasswordComparatorTest {
+public class VariableTimePasswordComparatorTest {
 	
 	private static String password = "00000000000000000000000000000000";
 	private static String passwordSameSize1 = "11111111111111111111111111111111";
